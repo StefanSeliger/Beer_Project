@@ -27,7 +27,6 @@ class AllBeer extends React.Component {
                                 image={elt.image_url}
                                 name={elt.name}
                                 tagline={elt.tagline}
-                                name={elt.name}
                             />)
                     }
                 </article>
