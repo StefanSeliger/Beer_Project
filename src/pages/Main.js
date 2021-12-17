@@ -3,9 +3,6 @@ import MainItems from '../components/MainItems.js';
 import HeroImage from '../img/christin-hume-08tX2fsuSLg-unsplash.jpg';
 import RandomImage from '../img/proriat-hospitality-flENqflm6xU-unsplash.jpg';
 
-import { Link } from 'react-router-dom'
-
-
 
 class Main extends React.Component {
     
