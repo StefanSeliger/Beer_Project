@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import Arrow from '../img/Vector.jpg'
 import Nav from '../components/Nav.js';
 
 class AllBeerDetails extends React.Component {
@@ -31,7 +30,7 @@ class AllBeerDetails extends React.Component {
                         <p>{this.state.beersDetail.attenuation_level}</p>
                     </div>
                     <p>{this.state.beersDetail.description}</p>
-                    <Link to="/allbeer"><img className="orangeBackground" src={Arrow} alt="back" /></Link>
+                    <Link to="/allbeer"><i class="fas fa-arrow-circle-left fa-4x"></i></Link>
                 </article>
                 <Nav/>
             </section>
