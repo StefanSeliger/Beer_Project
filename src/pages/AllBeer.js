@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import AllBeerItems from '../components/AllBeerItems.js';
 import { v4 as uuidv4 } from 'uuid';
-/* import { useParams } from 'react-router-dom' */
+import Nav from '../components/Nav.js';
+
 
 class AllBeer extends React.Component {
     state = {
@@ -27,11 +28,9 @@ class AllBeer extends React.Component {
                             tagline={elt.tagline}
                             name={elt.name}
                         />)
-
                 }
+                <Nav/>
             </section>
-
-
         );
     }
 }

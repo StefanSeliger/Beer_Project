@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+
 const AllBeerItems = (props) => {
     return (  
         <article>

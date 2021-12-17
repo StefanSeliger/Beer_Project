@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Arrow from '../img/Vector.jpg'
 
 const BeerDetailItems = (props) => {
     return (  
@@ -15,7 +16,7 @@ const BeerDetailItems = (props) => {
                 <p>{props.attenuation_level}</p>
             </div>
             <p>{props.description}</p>
-            <Link to={props.link}>back</Link>
+            <Link to={props.link}><img src={Arrow} alt="back" /> </Link>
         </section>
     );
 }

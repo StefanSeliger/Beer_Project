@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import BeerDetailItems from '../components/BeerDetaiItems.js';
-
+import { Link } from 'react-router-dom'
+import Arrow from '../img/Vector.jpg'
+import Nav from '../components/Nav.js';
 
 class AllBeerDetails extends React.Component {
     state = {
-        beersDetail : [],
+        beersDetail: [],
     }
 
     componentDidMount() {
@@ -16,12 +17,24 @@ class AllBeerDetails extends React.Component {
     render() {
 
         return (
-            <div>
-                <h1>{this.state.beersDetail.name}</h1>
-                {/* image={url} */}
-                {/* <BeerDetailItems
-                image={this.state.beersDetail.image_url}/> */}
-            </div>
+            <section>
+                <article>
+                    <img src={this.state.beersDetail.image_url} alt={this.state.beersDetail.name} />
+                    <h2>{this.state.beersDetail.name}</h2>
+                    <h3>{this.state.beersDetail.tagline}</h3>
+                    <div>
+                        <p>First Brewed</p>
+                        <p>{this.state.beersDetail.first_brewed}</p>
+                    </div>
+                    <div>
+                        <p>Attenuation level</p>
+                        <p>{this.state.beersDetail.attenuation_level}</p>
+                    </div>
+                    <p>{this.state.beersDetail.description}</p>
+                    <Link to="/allbeer"><img src={Arrow} alt="back" /></Link>
+                </article>
+                <Nav/>
+            </section>
 
         )
     }
