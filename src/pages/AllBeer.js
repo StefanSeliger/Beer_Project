@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AllBeerItems from '../components/AllBeerItems.js';
 import { v4 as uuidv4 } from 'uuid';
 import Nav from '../components/Nav.js';

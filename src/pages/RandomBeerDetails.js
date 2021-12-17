@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BeerDetailItems from '../components/BeerDetaiItems.js';
 import Nav from '../components/Nav.js';
 
@@ -12,7 +12,6 @@ class RandomBeerDetails extends React.Component {
             .then(response => response.json())
             .then(json => this.setState({ randomBeer: json }))
     }
-
 
     render() {
         return (

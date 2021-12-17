@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import MainItems from '../components/MainItems.js';
 import HeroImage from '../img/christin-hume-08tX2fsuSLg-unsplash.jpg';
 import RandomImage from '../img/proriat-hospitality-flENqflm6xU-unsplash.jpg';
