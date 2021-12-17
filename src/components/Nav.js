@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import NavLogo from '../img/bier1.jpg' 
+import NavLogo from '../img/Logo.svg' 
 
 
 const Nav = () => {

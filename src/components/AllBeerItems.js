@@ -7,9 +7,9 @@ const AllBeerItems = (props) => {
             <img src={props.image} alt={props.name} />
             <div>
                 <h2>{props.name}</h2>
-                <h3>{props.tagline}</h3>
+                <h3 className="orangeFont">{props.tagline}</h3>
                 <p>Created by: {props.name}</p>
-                <Link to={`/allbeer/${props.id}`}>Details</Link>
+                <Link className="orangeBackground" to={`/allbeer/${props.id}`}>Details</Link>
             </div>
         </article>
     );

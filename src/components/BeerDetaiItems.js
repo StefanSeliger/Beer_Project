@@ -3,7 +3,7 @@ import Arrow from '../img/Vector.jpg'
 
 const BeerDetailItems = (props) => {
     return (  
-        <section>
+        <article>
             <img src={props.image} alt={props.name} />
             <h2>{props.name}</h2>
             <h3>{props.tagline}</h3>
@@ -17,7 +17,7 @@ const BeerDetailItems = (props) => {
             </div>
             <p>{props.description}</p>
             <Link to={props.link}><img src={Arrow} alt="back" /> </Link>
-        </section>
+        </article>
     );
 }
  

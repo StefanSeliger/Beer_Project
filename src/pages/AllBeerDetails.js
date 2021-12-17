@@ -17,11 +17,11 @@ class AllBeerDetails extends React.Component {
     render() {
 
         return (
-            <section>
+            <section className="BeerDetails">
                 <article>
                     <img src={this.state.beersDetail.image_url} alt={this.state.beersDetail.name} />
                     <h2>{this.state.beersDetail.name}</h2>
-                    <h3>{this.state.beersDetail.tagline}</h3>
+                    <h3 className="orangeFont">{this.state.beersDetail.tagline}</h3>
                     <div>
                         <p>First Brewed</p>
                         <p>{this.state.beersDetail.first_brewed}</p>
@@ -31,7 +31,7 @@ class AllBeerDetails extends React.Component {
                         <p>{this.state.beersDetail.attenuation_level}</p>
                     </div>
                     <p>{this.state.beersDetail.description}</p>
-                    <Link to="/allbeer"><img src={Arrow} alt="back" /></Link>
+                    <Link to="/allbeer"><img className="orangeBackground" src={Arrow} alt="back" /></Link>
                 </article>
                 <Nav/>
             </section>

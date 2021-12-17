@@ -17,19 +17,21 @@ class AllBeer extends React.Component {
 
     render() {
         return (
-            <section>
-                {
-                    this.state.beers.map(elt => 
-                        < AllBeerItems 
-                            key={uuidv4()}
-                            id={elt._id}
-                            image={elt.image_url}
-                            name={elt.name}
-                            tagline={elt.tagline}
-                            name={elt.name}
-                        />)
-                }
-                <Nav/>
+            <section className="allBeerSetion">
+                <article>
+                    {
+                        this.state.beers.map(elt =>
+                            < AllBeerItems
+                                key={uuidv4()}
+                                id={elt._id}
+                                image={elt.image_url}
+                                name={elt.name}
+                                tagline={elt.tagline}
+                                name={elt.name}
+                            />)
+                    }
+                </article>
+                <Nav />
             </section>
         );
     }

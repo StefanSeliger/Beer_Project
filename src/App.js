@@ -1,12 +1,10 @@
-import './App.css';
+import './App.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Main from './pages/Main.js';
 import AllBeer from './pages/AllBeer.js';
 import RandomBeerDetails from './pages/RandomBeerDetails.js';
-import AllBeerDetails from './pages/AllBeerDetails.js';
 import GetId from './components/GetId.js';
-
 
 function App() {
   return (

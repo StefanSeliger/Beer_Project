@@ -12,7 +12,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <section>
+            <section className="mainSection">
                 <MainItems 
                 image={HeroImage}
                 title={"All Beers"}

@@ -16,8 +16,8 @@ class RandomBeerDetails extends React.Component {
 
     render() {
         return (
-            <section>
-                <article>
+            <section >
+                <article className="BeerDetails">
                     <BeerDetailItems
                         image={this.state.randomBeer.image_url}
                         name={this.state.randomBeer.name}

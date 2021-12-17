@@ -1,0 +1,138 @@
+// General Styles 
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  max-width: 414px;
+  font-family: 'Roboto Slab', serif;
+}
+
+// color: rgb(247,204,92)
+
+.orangeFont {
+  color: rgb(247,204,92); 
+}
+
+.orangeBackground {
+  background-color: rgb(247,204,92); 
+  color: white; 
+}
+
+a {
+  text-decoration: none; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Main 
+.mainSection {
+  padding: 20px; 
+  article {
+    margin-bottom: 5vh; 
+    img {
+      width: 100%; 
+    }
+    a {
+      display: block;
+      width: 100%;
+      font-size: 1.5rem;
+      text-decoration: none; 
+      padding: 10px 15px;  
+      margin: -1vh 0 2vh 0; 
+    }
+  }
+}
+
+// All Beer Overview
+.allBeerSetion {
+  padding-bottom: 50px; 
+  > article {
+    margin: 5vh 5vw; 
+    > article {
+      margin-bottom: 3vh; 
+      padding: 20px 10px 25px 20px; 
+      border-bottom: 1px solid black; 
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.allBeerSetion {
+  > article {
+    > article {
+      img {
+        width: 80px; 
+      }
+      div {
+        width: 200px; 
+        h3 {
+          margin: 1vh 0; 
+        }
+        p {
+          margin-bottom: 3vh; 
+        }
+      }
+    }
+  }
+}
+
+.allBeerSetion {
+  a {
+    padding: 5px 10px; 
+    border-radius: 15px; 
+  }
+}
+
+// Beer Details 
+.BeerDetails {
+  margin-top: 5vh; 
+  padding-bottom: 100px; 
+  article {
+    padding: 10px 35px; 
+    img {
+      display: block;
+      margin: 0 auto; 
+      width: 100px; 
+    }
+    h2 {
+      font-size: 2rem; 
+      font-weight: normal;
+      margin-top: 5vh; 
+    }
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 5vh; 
+      font-weight: 900;
+    }
+  }
+}
+
+.BeerDetails {
+  article {
+    div {
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(153,153,153)
+    }
+    > p {
+      margin: 4vh 0; 
+    }
+  }
+}
+
+
+
+// Footer Nav 
+footer {
+  padding: 3px 0; 
+  position: fixed;
+  bottom: 0; 
+  height: 65px; 
+  width: 100vw; 
+  background-color: rgb(247,204,92);
+  display: block; 
+  text-align: center;
+}
