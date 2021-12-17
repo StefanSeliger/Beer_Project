@@ -7,6 +7,14 @@
   font-family: 'Roboto Slab', serif;
 }
 
+html {
+  background-color: darkgoldenrod; 
+}
+
+body {
+  background-color: white; 
+}
+
 // color: rgb(247,204,92)
 
 .orangeFont {
@@ -51,7 +59,7 @@ i {
 .allBeerSetion {
   padding-bottom: 50px; 
   > article {
-    margin: 5vh 5vw; 
+    margin: 0 3vh; 
     > article {
       margin-bottom: 3vh; 
       padding: 20px 10px 25px 20px; 
@@ -91,7 +99,6 @@ i {
 
 // Beer Details 
 .BeerDetails {
-  margin-top: 5vh; 
   padding-bottom: 100px; 
   article {
     padding: 10px 35px; 
@@ -126,8 +133,6 @@ i {
     }
   }
 }
-
-
 
 // Footer Nav 
 footer {
