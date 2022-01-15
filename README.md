@@ -39,10 +39,11 @@ Users should be able to:
 - JavaScript
 - React
 - Fetch
+- Netlify
 
 ### What I learned
 
-How to implement an API and use fetches in React. Also how to use Routing in React. 
+How to implement an API and use fetches in React. Also how to use Routing in React. I pushed my project to netflify, which was really cool. 
 
 
 ### Continued development
